@@ -1,0 +1,68 @@
+.contact{
+  background-color:#141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+    .contact{
+      background-color:#141414;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 115px;
+      gap: 80px;
+    }
+    
+ }
+.contact__form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #FAFAFA;
+}
+@media (min-width: 768px) {
+    .contact__title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        color: #FAFAFA;
+        margin-top: -350px;
+    }
+}
+.contact__label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #FAFAFA;
+    display: block;
+}
+.contact__input{
+    width: 335px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 0;
+    
+}
+.contact__input-textarea{
+    width: 335px;
+    height: 113px;
+    padding: 0;
+
+}
+.contact__submit-button{
+   background-color:#2C2C2C;
+   width: 335px;
+   height: 45px;
+   border-radius: 4px;
+   margin-top: 60px;
+   color: #FAFAFA;
+}
