@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.services{
+   background-color: #000000;
+}
+.services__section{
+    background-color: black;
+}
+@media (min-width: 768px) {
+  .services__section{
+      background-image: url(https://zabit-009.github.io/desafio-dwf-modulo-4/images/Rectangleee.png);
+       height: 500px;
+    }
+}
+.services__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 80px;
+}
+@media (min-width: 768px) {
+    .services__title{
+        text-align: left;
+    }
+  }
+  @media (min-width: 768px) {
+    .services__container{
+      padding: 50px;
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+     }
+  }
+  .services__card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .services__img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+.services__sub-title{
+    font-family: 'Poppins', sans-serif;
+    color:#DBDBDB;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+.services__paragraph{
+    font-family: 'Poppins', sans-serif;
+    color:#DBDBDB;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
