@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.portfolio{
+    background-color: #000000;
+}
+.portfolio__section{
+background-color: black;
+}
+@media (min-width: 768px) {
+  .portfolio__section{
+      background-image: url(https://zabit-009.github.io/desafio-dwf-modulo-4/images/Rectangleee.png);
+       height: 500px;
+    }
+}
+.portfolio__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 80px;
+}
+@media (min-width: 768px) {
+    .portfolio__title{
+        text-align: left;
+    }
+  }
+  @media (min-width: 768px) {
+      .portfolio__template{
+        padding: 50px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+    @media (min-width: 900px) {
+        .portfolio__template {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+    }
+.portfolio__container{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio__img{
+    height: 172px;
+    width: 290px;
+}
+.portfolio__subtitle{
+   font-family: 'Poppins', sans-serif;
+   color:#DBDBDB;
+   font-size: 24px;
+   margin: 0;
+   text-align: center;
+}
+.portfolio__paragraph{
+    font-family: 'Poppins', sans-serif;
+    color:#DBDBDB;
+    font-size: 16px;
+    text-align: center;
+}
+.portfolio__url{
+    font-family: 'Poppins', sans-serif;
+    color:#FC6F50;
+    font-size: 24px;
+    margin-bottom: 90px;
+}
